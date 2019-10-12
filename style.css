@@ -34,3 +34,42 @@ nav ul{
 nav ul li{
     margin: 1px;
 }
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    margin: auto;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+#pizza{
+    width: 960px;
+}
+
+article{
+    width: 900px;
+    text-align: center;
+}
+
+#ingredients{
+    list-style: square;
+    background-image: url("./lab-assets/list-bg.png");
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 125px;
+    width: 850px;
+    justify-content: center;
+}
+
+#ingredients li{
+    margin-left: 30px;
+}
