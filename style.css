@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+    width: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px solid gray;
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
