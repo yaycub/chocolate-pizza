@@ -19,6 +19,8 @@ header{
 
 h1{
     margin-left: 10px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
 }
 
 nav{
@@ -73,7 +75,7 @@ article{
     justify-content: center;
     color: gray;
     line-height: 32px;
-    font-family: fantasy;
+    font-family: 'Patrick Hand', cursive;
 }
 
 #ingredients li{
