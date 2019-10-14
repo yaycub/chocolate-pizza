@@ -70,16 +70,21 @@ article{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 195px;
+    height: 200px;
     width: 850px;
     justify-content: center;
     color: gray;
     line-height: 32px;
     font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
 }
 
 #ingredients li{
     margin-left: 30px;
+}
+
+.strike{
+    text-decoration: line-through;
 }
 
 footer{
