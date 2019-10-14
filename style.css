@@ -7,7 +7,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 10px solid gray;
 }
 
 #logo{
@@ -55,8 +54,10 @@ h2{
 }
 
 article{
-    width: 900px;
-    text-align: center;
+    width: 960px;
+    text-align: inherit;
+    text-indent: initial;
+    color: gray;
 }
 
 #ingredients{
@@ -68,8 +69,54 @@ article{
     height: 125px;
     width: 850px;
     justify-content: center;
+    color: gray;
 }
 
 #ingredients li{
     margin-left: 30px;
+}
+
+footer{
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#van-pic{
+    margin: 20px;
+}
+
+address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#author{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: grey;
+}
+
+h4{
+    color: darkslategray;
+    margin-bottom: 10px;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: tomato;
+    color: lightgrey;
+}
+
+.hr{
+    background-image: url('./lab-assets/hr-img.png');
+    height: 15px;
 }
