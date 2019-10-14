@@ -66,10 +66,12 @@ article{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 125px;
+    height: 195px;
     width: 850px;
     justify-content: center;
     color: gray;
+    line-height: 32px;
+    font-family: fantasy;
 }
 
 #ingredients li{
@@ -117,5 +119,5 @@ button{
 
 .hr{
     background-image: url('./lab-assets/hr-img.png');
-    height: 15px;
+    height: 10px;
 }
